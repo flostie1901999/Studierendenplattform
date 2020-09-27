@@ -13,6 +13,7 @@ let passwordDerivative;
 let user = {};
 let users = [];
 let username;
+//hello
 
 //Endpunkt POST / post
 app.post('/post', function (req, res) {
