@@ -45,7 +45,7 @@ app.post('/register', function (req, res) {
       error: "Bad Request: Your username or password weren't defined or aren't declared in a valid way."
     });
   }
-});s
+});
 
 //Endpunkt POST / login
 app.post('/login', function (req, res) {
