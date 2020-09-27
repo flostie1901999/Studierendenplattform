@@ -1,0 +1,2 @@
+# Studierendenplattform
+Für unser Webprogrammierungsprojekt
