@@ -13,17 +13,28 @@
   </head>
 
   <body>
+    <center>
+      <p style="text-align: right">
+        <button><a href="registrierung.html">Registrierung</a></button>
+        <button><a href="login.html">Login</a></button>
+      </p>
+      
+    </center>
     <div class="container">
       <section class="wrapper">
         <nav class="navbar">
           <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Home</a>
+            </li>
             <li class="nav-item">
               <a href="#" class="nav-link">Studienstandorte</a>
               <ul class="dropdown">
                 <li class="dropdown-item">
                   <a href="#" class="dropdown-link">Aachen</a>
                   <p>
-                    Rheinisch-Westfälische Technische Hochschule,                   </p>
+                    Rheinisch-Westfälische Technische Hochschule
+                  </p>
                 </li>
                 <li class="dropdown-item">
                   <a href="#" class="dropdown-link">Augsburg</a>
@@ -554,19 +565,55 @@
                   </p>
                 </li>
               </ul>
+              <li class="nav-item">
+              <a href="#" class="nav-link">Deine Vorteile als Student</a>
+              <ul class="dropdown">
+                <li class="dropdown-item">
+                  <a href="#" class="dropdown-link">Rabatt auf Angebote in Deiner Studienstadt</a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="#" class="dropdown-link">Apps</a>
+                  <p>
+                    Apps gefällig, die Dir als Student das Einkaufen vergünstigen?
+                  </p>
+                </li>
+                <li class="dropdown-item">
+                  <a href="#" class="dropdown-link">Vergünstigungen auf Freizeitaktivitäten</a>
+                  <p>
+                    Du weißt noch nicht was Du am Wochendende machen sollst?</br>
+                    Allzu teuer darf es auch nicht sein?</br>
+                    Kein Problem - als Student kannst Du oftmals eine Menge Geld sparen.
+                  </p>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Mobilität</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Events für Dich</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Aktuelles über deine Stadt</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Dein neues Zuhause</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Dein Foodadvisor</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">FAQ</a>
+            </li>
+            
             </li>
           </ul>
           <div class="dropdown-bg"></div>
         </nav>
       </section>
     </div>
-
     <center>
-      <p style="text-align: right">
-        <button><a href="registrierung.html">Registrierung</a></button>
-        <button><a href="login.html">Login</a></button>
-      </p>
-      <p style="text-align: left"></p>
+          <p style="text-align: left"></p>
 
       <p
         style="
@@ -577,7 +624,7 @@
       >
         Ihr habt euch gefragt, weshalb es noch keine einzige Website gibt,
         <br />
-        die alle für einen Studenten wichtigen Infos komprimiert enthält? <br />
+        die alle für einen Studenten wichtigen Infos komprimiert enthält? <br/>
         Das haben wir uns bisher auch gefragt und wollten diesem Schicksal ein
         Ende setzen.<br />
         Und wer sind „wir“? <br />
@@ -585,10 +632,20 @@
         Stuttgart. <br />
       </p>
     </center>
-    <h3>Aktuelle Infos zu den Corona-Regelungen an deinem Studienstandort</h3>
-    <img
-      src="C:\Users\laura\OneDrive\Pictures/corona-pixabay.jpg"
-      alt="Viren"
-    />
+    <div id="cookiedingsbums"><div>
+      <span>Ja, auch diese Webseite verwendet Cookies. </span> 
+      <a href="http://xxx.euredomain.de/euredatenschutzseite">Hier erfahrt ihr alles zum Datenschutz</a></div>
+     <span id="cookiedingsbumsCloser" onclick="document.cookie = 'hidecookiedingsbums=1;path=/';jQuery('#cookiedingsbums').slideUp()">&#10006;</span>
+    </div>
+    
+    <script>
+     if(document.cookie.indexOf('hidecookiedingsbums=1') != -1){
+     jQuery('#cookiedingsbums').hide();
+     }
+     else{
+     jQuery('#cookiedingsbums').prependTo('body');
+     jQuery('#cookiedingsbumsCloser').show();
+     }
+    </script>
   </body>
 </html>

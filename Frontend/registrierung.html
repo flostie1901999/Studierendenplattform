@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Registrierung</title>
+  </head>
+  <body>
+    <a href="index.html">Zur Startseite</a>
+    <div>
+      <p>
+        Neu hier? Dann kannst Du Dich innerhalb weniger Sekunden registrieren,
+        um das studentlivesupportportal inklusive aller Features nutzen zu
+        können.
+      </p>
+      <form action="http://yourserver/register.php" method="post">
+        <table border="0" cellspacing="2" cellpadding="2">
+          <tbody>
+            <tr>
+              <td align="right">Anrede*:</td>
+              <td>
+                <select name="geschl">
+                  <option value="0">Bitte wählen</option>
+                  <option value="m">Herr</option>
+                  <option value="f">Frau</option>
+                  <option value="d">Divers</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td align="right">Vorname*:</td>
+              <td>
+                <input maxlength="50" name="Vorname" size="45" type="text" />
+              </td>
+            </tr>
+            <tr>
+              <td align="right">Nachname*:</td>
+              <td>
+                <input maxlength="50" name="Nachname" size="45" type="text" />
+              </td>
+            </tr>
+            <tr>
+              <td align="right">PLZ*:</td>
+              <td>
+                <input maxlength="5" name="PLZ" size="7" type="text" />
+              </td>
+            </tr>
+            <tr>
+              <td align="right">Ort*:</td>
+              <td>
+                <input maxlength="50" name="Ort" size="45" type="text" />
+              </td>
+            </tr>
+            <tr>
+              <td align="right">Email*:</td>
+              <td>
+                <input maxlength="80" name="Email" size="45" type="text" />
+              </td>
+            </tr>
+            <tr>
+              <td align="right">Matrikelnummer*:</td>
+              <td>
+                <input
+                  maxlength="100"
+                  name="Matrikelnummer"
+                  size="45"
+                  type="text"
+                />
+              </td>
+            </tr>
+            <p>Durch Angabe Deiner Matrikelnummer wird sichergestellt, dass Du tatsächlich studierst und folglich zur
+                Nutzung des studentlivesupportportal befugt bist.
+            </p>
+            <p>Durch Angabe Deiner PLZ können Dir automatisch zu deinem Studienstandort passende
+                Informationen und Angebote vorgeschlagen werden.</p>
+            <p>Alle mit * markierte Felder sind Pflicht-Felder.</p>
+            <tr>
+              <td></td>
+              <td>
+                <input type="submit" value="Registrieren" />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </form>
+    </div>
+    
+  </body>
+</html>

@@ -38,14 +38,14 @@ body
   .nav-item {
     margin-top: 2rem;
     text-align: center;
-    width: 26vw;
+    width: 15vw;
   }
   
   .nav-link {
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 1.5rem;
     letter-spacing: 0.1rem;
-    font-weight: 600;
+    font-weight: 300;
     color: #245f9b;
     text-shadow: 0 0.2rem 0.5rem #b8b8b8;
   }
@@ -63,7 +63,7 @@ body
   
   .nav-item:hover .dropdown {
     transform: translateX(0);
-    opacity: 1;
+    opacity: 0.8;
     visibility: visible;
     height: auto;
     transition: all 0.1s 0.2s;
@@ -81,7 +81,7 @@ body
   .dropdown-link {
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: #245f9b;
   }
   
@@ -108,5 +108,51 @@ body
     transform: translate(-50%, -100%);
     border-left: 1rem solid transparent;
     border-right: 1rem solid transparent;
-    border-bottom: 1rem solid rgba(243, 243, 243, 0.93);
+    border-bottom: 1rem solid rgba(182, 122, 122, 0.93);
   }
+  #cookiedingsbums a {color:#000; text-decoration:none;}
+
+#cookiedingsbums a:hover {text-decoration:underline;}
+
+#cookiedingsbums div {padding:10px; padding-right:40px;}
+
+#cookiedingsbums { 
+   outline: 1px solid #7b92a9; 
+   text-align:right; 
+   border-top:1px solid #fff;
+   background: #d6e0eb; 
+   background: -moz-linear-gradient(top, #d6e0eb 0%, #f2f6f9 100%); 
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d6e0eb), color-stop(100%,#f2f6f9)); 
+   background: -webkit-linear-gradient(top, #d6e0eb 0%,#f2f6f9 100%); 
+   background: -o-linear-gradient(top, #d6e0eb 0%,#f2f6f9 100%);
+   background: -ms-linear-gradient(top, #d6e0eb 0%,#f2f6f9 100%); 
+   background: linear-gradient(to bottom, #d6e0eb 0%,#f2f6f9 100%); 
+   filter: progid:DXImageTransform.Microsoft.gradient(   startColorstr='#d6e0eb', endColorstr='#f2f6f9',GradientType=0 ); 
+   position:fixed;
+   bottom:0px; 
+   z-index:10000; 
+   width:100%; 
+   font-size:12px; 
+   line-height:16px;}
+
+#cookiedingsbumsCloser {
+   color: #777;
+   font: 14px/100% arial, sans-serif;
+   position: absolute;
+   right: 5px;
+   text-decoration: none;
+   text-shadow: 0 1px 0 #fff;
+   top: 5px;
+   cursor:pointer;
+   border-top:1px solid white; 
+   border-left:1px solid white; 
+   border-bottom:1px solid #7b92a9; 
+   border-right:1px solid #7b92a9; 
+   padding:4px;
+   background: #ced6df; /* Old browsers */
+   background: -moz-linear-gradient(top, #ced6df0%, #f2f6f9 100%); 
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ced6df), color-stop(100%,#f2f6f9)); 
+   background: -webkit-linear-gradient(top, #ced6df0%,#f2f6f9 100%); 
+   background: -o-linear-gradient(top, #ced6df0%,#f2f6f9 100%); 
+   background: -ms-linear-gradient(top, #ced6df0%,#f2f6f9 100%); 
+   background: linear-gradient(to bottom, #ced6df0%,#f2f6f9 100%); 
